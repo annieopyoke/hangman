@@ -9,3 +9,8 @@ def word_blanks(secert_word)
 	end
 	blanks
 end
+
+
+
+
+
