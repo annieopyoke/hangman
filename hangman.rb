@@ -41,8 +41,8 @@ updated_array
 end
 
 
-wrong_counter = 0
-
+def wrong_guess_tracker(secert_word, guess)
+end
 
 
 
