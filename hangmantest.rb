@@ -44,4 +44,9 @@ def test_assert_that_f_is_not_in_dog
 	assert_equal(["_", "_", "_"], guess_letter(secert_word,guess))
 end
 
+def test_assert_that_wrong_guess_adds_one_to_wrong_counter
+	secert_word = dog
+	guess = "f"
+	assert_equal(1, wrong_guess_tracher(secert_word,guess))
+end
 end
