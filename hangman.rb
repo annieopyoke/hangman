@@ -42,14 +42,14 @@ def wrong_guess_tracker(secert_word, guess)
 # secert_word = secert_word.split("")
 	
 counter = 0
-until counter == 6
+# until counter == 6
 	guess_letter(secert_word, guess)
 	if secert_word.include?(guess) == false 
 		counter += 1
-	end
+	# end
 end
 
-	puts "You lose"
+counter 	
 
 end
 
