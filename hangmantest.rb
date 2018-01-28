@@ -26,4 +26,22 @@ def test_assert_that_d_is_in_dog
 	assert_equal(["d", "_", "_"], guess_letter(secert_word,guess))
 end
 
+def test_assert_that_o_is_in_dog
+	secert_word = "dog"
+	guess = "o"
+	assert_equal(["_", "o", "_"], guess_letter(secert_word,guess))
+end
+
+def test_assert_that_g_is_in_dog
+	secert_word = "dog"
+	guess = "g"
+	assert_equal(["_", "_", "g"], guess_letter(secert_word,guess))
+end
+
+def test_assert_that_f_is_not_in_dog
+	secert_word = "dog"
+	guess = "f"
+	assert_equal(["_", "_", "_"], guess_letter(secert_word,guess))
+end
+
 end
